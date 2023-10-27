@@ -7,7 +7,7 @@ let h1= document.getElementById("h1")
 Button.addEventListener("click" , function(e){
     let x = `https://codeforces.com/profile/${inputField.value}`
     if(inputField.value == ""){
-        alert("ohhh fuck you add fucken username")
+        alert("add handle")
     }else{
     Button.href = x;
     }
